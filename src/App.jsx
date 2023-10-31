@@ -1,6 +1,6 @@
 
 function App() {
-  
+
   return (
     <>
       <p style={{ color: 'black' }} >Coming soon ...</p>
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
