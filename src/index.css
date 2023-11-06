@@ -59,6 +59,7 @@ h1 {
   max-width: 40rem;
   margin: 1rem auto;
   padding: 1rem;
+  border-radius: 4px;
   background: linear-gradient(#383624, #282617);
   /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
   box-shadow: 0 0 43px rgb(254 255 0);
