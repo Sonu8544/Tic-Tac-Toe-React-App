@@ -25,7 +25,7 @@ function deriveActivePlayer(gameTurns) {
 function App() {
   const [players, setPlayers] = useState({
     X: "SONU",
-    O: "SATYAM"
+    O: "ARTI"
   })
   const [gameTurns, setGameTurns] = useState([]);
 
@@ -88,15 +88,15 @@ function App() {
         <div id="game-container">
           <ol id="players" className="highlight-player">
             <Player
-              initialName="SONU"
-              symbol="X"
-              isActive={activePlayer === "X"}
+              initialName="SONU KUMAR"
+              symbol="👨‍💻"
+              isActive={activePlayer === "👨‍💻"}
               onChangeName={handlePlayerNameChange}
             />
             <Player
-              initialName="SATYAM"
-              symbol="Y"
-              isActive={activePlayer === "O"}
+              initialName="ARTI KUMARI"
+              symbol="🧑"
+              isActive={activePlayer === "🧑"}
               onChangeName={handlePlayerNameChange}
             />
           </ol>
