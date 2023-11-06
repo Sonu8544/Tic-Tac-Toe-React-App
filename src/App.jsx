@@ -89,14 +89,14 @@ function App() {
           <ol id="players" className="highlight-player">
             <Player
               initialName="SONU KUMAR"
-              symbol="👨‍💻"
-              isActive={activePlayer === "👨‍💻"}
+              symbol="X"
+              isActive={activePlayer === "X"}
               onChangeName={handlePlayerNameChange}
             />
             <Player
               initialName="ARTI KUMARI"
-              symbol="🧑"
-              isActive={activePlayer === "🧑"}
+              symbol="O"
+              isActive={activePlayer === "O"}
               onChangeName={handlePlayerNameChange}
             />
           </ol>
